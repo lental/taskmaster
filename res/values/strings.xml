@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="homeHeader">Unfinished Tasks (Categories)</string>
+    <string name="app_name">Taskmaster</string>
+<string name="btnAdd">Click to add another element</string>
+
+<string name="addTaskTitle">Add Task</string>
+<string name="viewItemStartButton">Start</string>
+<string name="viewTaskTitle">View Task</string>
+
+<string name="viewItemPauseButton">Pause</string>
+<string name="viewItemStopButton">Stop</string>
+<string name="viewItemResumeButton">Resume</string>
+
+<string name="categoryDialogTextHint">New Category Name</string>
+<string name="categoryDialogSaveButton">Save</string>
+<string name="categoryDialogCancelButton">Cancel</string>
+<string name="categoryDialogText">New Category...</string>
+<string name="alarmActivityTimeUp">Activity Alert</string>
+
+<string name="viewItemCategoryText">Category: </string>
+
+<string name="viewCategoryTotalTimeText">Total Time Spent: </string>
+<string name="viewCategoryNameText">Statistics for Category </string>
+<string name="viewCategoryTimeConsumingText">Most Time Consuming Task:</string>
+<string name="viewCategoryTasksCompletedText">Tasks Completed:</string>
+<string name="viewCategoryTitle">Category Statistics</string>
+<string name="viewCategoryActivityNameText">Statistics for Activities</string>
+<string name="viewCategoryActivityTimeConsumingText">Most Time Consuming Activity:</string>
+<string name="viewCategoryActivityTitle">Activity Statistics</string>
+
+<string name="categoryText">Select a Category</string>
+<string name="estimatedTimeText">Estimated Time:</string>
+<string name="viewItemTotalTimeText">Total Time Spent on this task: </string>
+<string name="viewItemTotalTimeActivityText">Total Time Spent on this activity: </string>
+<string name="viewItemEstimatedTimeText">Estimated Time for Task: </string>
+
+<string name="AddItemTitleEditText">Name/Title of Task</string>
+<string name="AddItemEstimatedTimeEditText">Estimated Time for Task (min)</string>
+<string name="AddItemWarningModeText">Warning Mode</string>
+<string name="AddItemSaveButton">Save</string>
+<string name="AddItemCancelButton">Cancel</string>
+
+<string name="viewGeneralTotalTimeText">Total Time Spent: </string>
+<string name="viewGeneralNameText">General Taskmaster Statistics</string>
+<string name="viewGeneralTimeConsumingText">Most Time Consuming Task:</string>
+<string name="viewGeneralTimeConsumingCategoryText">Most Time Consuming Category:</string>
+<string name="viewGeneralTasksCompletedText">Tasks Completed:</string>
+</resources>

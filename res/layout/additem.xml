@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+
+
+	<Spinner android:id="@+id/AddItemCategorySpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200dip"></Spinner>
+
+
+
+
+
+
+	<EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:minWidth="100pt" android:paddingBottom="5dip" android:id="@+id/AddItemTitleEditText" android:hint="@string/AddItemTitleEditText"></EditText>
+	<EditText android:text="" android:id="@+id/AddItemEstimatedTimeEditText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50pt" android:hint="@string/AddItemEstimatedTimeEditText"></EditText>
+
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/AddItemWarningModeText" android:text="@string/AddItemWarningModeText"></TextView>
+	<Spinner android:id="@+id/AddItemWarningModeSpinner"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:clickable="false" android:minWidth="200dip"></Spinner>
+
+	
+	
+	
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_gravity="bottom" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:gravity="bottom|center_horizontal">
+		<Button android:text="@string/AddItemSaveButton" android:id="@+id/AddItemSaveButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:minWidth="150dip"></Button>
+		<Button android:text="@string/AddItemCancelButton" android:id="@+id/AddItemCancelAddButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:minWidth="150dip"></Button>
+	</LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
